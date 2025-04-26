@@ -19,6 +19,7 @@ void Brute::executePointsArray(const std::vector<Point>& points) {
     for (const auto& point : points) {
         executePointClick(point.X, point.Y);
     }
+    Sleep(100);
 }
 
 void Brute::addPoint(bool beforeInput, int x, int y) {
